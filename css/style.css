@@ -458,6 +458,15 @@ button::-moz-focus-inner {
 .footer .information p span {
 	text-transform:uppercase;
 }
+.footer .information p em {
+	display:block;
+	font-style:normal;
+	margin:6px 0 0 16px;
+}
+.footer .information p em strong {
+	font-size:16px;
+	font-weight:normal;
+}
 .footer .information h5 {
 	position:absolute;
 	right:32px;
@@ -739,6 +748,9 @@ button::-moz-focus-inner {
 	-moz-transition:all 0.5s ease-in-out;
 	-o-transition:all 0.5s ease-in-out;
 }
+.social ul li a:hover {
+	background:#dd7e43;
+}
 .social ul li a img {
 	position:absolute;
 	top:0;
@@ -748,16 +760,4 @@ button::-moz-focus-inner {
 	max-width:32px;
 	max-height:33px;
 	margin:auto;
-}
-.social ul li a.facebook:hover {
-	background:#3c599b;
-}
-.social ul li a.twitter:hover {
-	background:#58ccff;
-}
-.social ul li a.odnoklassniki:hover {
-	background:#f78735;
-}
-.social ul li a.vkontakte:hover {
-	background:#4c75a3;
 }
